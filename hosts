@@ -1,0 +1,8 @@
+----
+[webservers]
+node1
+node2
+
+[db]
+node2
+node4

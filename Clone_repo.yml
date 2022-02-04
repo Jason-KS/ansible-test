@@ -1,0 +1,9 @@
+----
+- hosts: all
+   tasks:
+   - name: Clone a github repository
+     git: https://github.com/Jason-KS/ansible-test.git
+       repo:
+       dest: /home/ansible/git-repos/my-playbooks/
+       clone: yes
+       update: yes
